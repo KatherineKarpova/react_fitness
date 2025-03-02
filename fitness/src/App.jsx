@@ -1,19 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import SelectDate from '../components/SelectDate'
 import './App.css'
 
 function App() {
 
-  const [exerciseLogs, setExerciseLogs] = useState({
+  const [dailyExerciseLog, setDailyExerciseLog] = useState({
     name: null, 
     reps: null,
-    weight: null
+    weight: null,
   })
 
   return (
     <div>
-      
+      <SelectDate/>
     </div>
   )
 }

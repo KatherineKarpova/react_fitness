@@ -1,15 +1,25 @@
 {
-  "name": "fitness",
+  "name": "backend",
+  "version": "0.0.1",
   "private": true,
-  "version": "0.0.0",
+  "description": "\"\"",
+  "repository": {
+    "type": "git",
+    "url": "react_fitness"
+  },
+  "license": "UNLICENSED",
+  "author": "Katherine Karpova",
   "type": "module",
+  "main": "y",
   "scripts": {
     "dev": "vite",
+    "start": "node index.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.21.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
