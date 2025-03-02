@@ -1,4 +1,4 @@
-const SelectDate = () => {
+const DateToday = () => {
 
     const today = new Date
 
@@ -26,4 +26,4 @@ const SelectDate = () => {
     )
 }
 
-export default SelectDate
+export default DateToday
